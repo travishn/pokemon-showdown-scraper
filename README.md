@@ -2,14 +2,19 @@
 
 ## Overview
 
-There are tons of Pokemon resources out there; however, this script allows you to become more familiarized with how web scraping using selenium works and grants direct access to basic data on Generation 1 to 7 Pokemon via csv files. One can then convert these files into a database and use it for their own personal projects.
+![](https://res.cloudinary.com/emanon/image/upload/v1533411691/s-l300.jpg)
+
+There are tons of Pokemon resources out there; however, this script allows you to become more familiarized with how web scraping using Selenium works and grants direct access to basic data on Generation 1 to 7 Pokemon via csv files. One can then convert these files into a database and use it for their own personal projects.
 
 ## Getting Started
 First install the necessary packages in your terminal:
 ```
 $ pip install -r req.txt
 ```
-Simply run the script via "python scraper.py" and watch selenium scrape data from Pokemon Showdown for you!
+Simply run the script via "python scraper.py" and watch Selenium scrape data from Pokemon Showdown for you!
+```
+$ python scraper.py
+```
 
 
 ## Note
