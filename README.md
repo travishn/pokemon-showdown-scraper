@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](https://res.cloudinary.com/emanon/image/upload/v1533411691/s-l300.jpg)
+![](https://res.cloudinary.com/emanon/image/upload/v1533411957/new_starters_revealed__by_bbrunomoraes-da23c3a.gif)
 
 There are tons of Pokemon resources out there; however, this script allows you to become more familiarized with how web scraping using Selenium works and grants direct access to basic data on Generation 1 to 7 Pokemon via csv files. One can then convert these files into a database and use it for their own personal projects.
 
