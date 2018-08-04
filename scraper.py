@@ -29,7 +29,7 @@ for name in pokemon_names[151:252]:
 
   abilities = browser.find_elements_by_css_selector("dd.imgentry > a")
   ability1 = abilities[0].text
-  if len(abilities) == 2:
+  if len(abilities) >= 2:
     ability2 = abilities[1].text
   else:
     ability2 = 'none'
