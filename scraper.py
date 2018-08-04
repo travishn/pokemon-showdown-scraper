@@ -6,18 +6,18 @@ browser = webdriver.Chrome()
 browser.get("https://dex.pokemonshowdown.com/pokemon/")
 search_input = browser.find_element_by_class_name("searchbox")
 
-file = open("pokemon-gen1-data.csv", 'w')
+file = open("pokemon-gen2-data.csv", 'w')
 file.write("Pokemon, Number, Type1, Type2, Ability1, Ability2, Ability3, HP, Attack, Defense, Sp. Atk, Sp. Def, Speed, Sprite\n")
 
 with open('./names.json') as f:
   pokemon_names = json.loads(f.read())
 
-for i in range(150):
+for name in pokemon_names[151:252]:
   search_input.clear()
-  search_input.send_keys(pokemon_names[i])
+  search_input.send_keys(name)
   search_input.send_keys(Keys.RETURN)
 
-  pokemon = pokemon_names[i]
+  pokemon = name
   number = browser.find_element_by_tag_name("code").text.replace("#", "")
 
   types = browser.find_elements_by_class_name("type")
