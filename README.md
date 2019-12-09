@@ -1,7 +1,7 @@
 # Pokemon Showdown Webscraper
 
 ## Overview
-There are tons of Pokemon resources out there; however, this script allows you to become more familiarized with how web scraping using Selenium works and grants direct access to basic data on Generation 1 to 7 Pokemon via csv files. One can then convert these files into a database and use it for their own personal projects.
+A simple script that grants direct access to basic data on Generation 1 to 7 Pokemon through Selenium web scraping. Data is generated and organized into CSV files, which can be then used in various ways such as creation of a database for use on a personal project.
 
 ![](https://res.cloudinary.com/emanon/image/upload/c_scale,h_600,w_1000/v1533412224/todos-21-iniciais-shiny-6-ivs-pokemon-sun-moon-ou-ultra-D_NQ_NP_629320-MLB26464649284_112017-F.jpg)
 
