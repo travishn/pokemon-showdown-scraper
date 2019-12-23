@@ -1,8 +1,9 @@
 import json
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 
-browser = webdriver.Chrome()
+browser = webdriver.Chrome(ChromeDriverManager().install())
 browser.get("https://dex.pokemonshowdown.com/pokemon/")
 search_input = browser.find_element_by_class_name("searchbox")
 
