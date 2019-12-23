@@ -14,7 +14,7 @@ Simply run the script via "python scraper.py" and watch Selenium scrape data fro
 ```
 $ python scraper.py
 ```
-![](https://media.giphy.com/media/pHZa9k4jwqXS4eq2cW/giphy.gif)
+![](https://i.imgur.com/wceNDYD.mp4)
 
 ## Note
 You can dictate which generation of pokemon data you are scraping by altering the numbers on line 15 of the scraper script. This simply slices out the names of the pokemon_names data array.
